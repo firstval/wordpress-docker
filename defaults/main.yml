@@ -1,0 +1,11 @@
+---
+# defaults file for docker-wordpress
+#ansible_distribution_release: stretch
+system_user: admin
+compose_project_dir: /home/{{ system_user }}/compose-wordpress
+
+wp_version: 5.0.3
+wp_db_name: wordpress
+wp_db_tb_pre: wp_
+wp_db_host: mysql
+wp_db_psw: change-M3
